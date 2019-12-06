@@ -1,0 +1,7 @@
+{
+    "schemaType": "LAUNCHER",
+    "id": "office-map-nr1-launcher",
+    "description": "Describe me",
+    "displayName": "OfficeMapNr1Launcher",
+    "rootNerdletId": "office-map-nr1-nerdlet"
+}
