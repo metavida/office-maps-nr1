@@ -1,6 +1,6 @@
 {
     "schemaType": "NERDLET",
     "id": "office-map-nr1-nerdlet",
-    "displayName": "OfficeMapNr1Nerdlet",
-    "description": ""
+    "displayName": "Office Maps",
+    "description": "Searchable maps of our office rooms and spaces."
 }

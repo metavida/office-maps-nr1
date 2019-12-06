@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "scripts": {
     "start": "nr1 nerdpack:serve $([[ -f .nr1-options ]] && cat .nr1-options)",
+    "lint": "eslint .",
     "test": "exit 0"
   },
   "nr1": {
@@ -13,6 +14,15 @@
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-standard": "^4.0.1"
   },
   "browserslist": [
     "last 2 versions",
