@@ -1,3 +1,6 @@
 dist
 tmp
 node_modules
+
+# Ignore the file used to add custom nr1 options/flags
+.nr1-options

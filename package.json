@@ -3,7 +3,7 @@
   "name": "office-map-nr1",
   "version": "0.1.0",
   "scripts": {
-    "start": "nr1 nerdpack:serve",
+    "start": "nr1 nerdpack:serve $([[ -f .nr1-options ]] && cat .nr1-options)",
     "test": "exit 0"
   },
   "nr1": {

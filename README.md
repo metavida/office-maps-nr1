@@ -24,12 +24,4 @@ npm start
 
 Visit https://one.newrelic.com/?nerdpacks=local and :sparkles:
 
-## Creating new artifacts
-
-If you want to create new artifacts run the following command:
-
-```
-nr1 create
-```
-
-> Example: `nr1 create --type nerdlet --name my-nerdlet`.
+Note: If you have multiple nr1 profiles configured and want to run this Nerdpack with a profile other than the default, create an `.nr1-options` file with the contents `--profile=my-custom-profile`. Subsequent invocations of `npm start` will use these options.
